@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Media - image */
+.mdeia {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Kendall Norman</h1>
+  <h3>Glitch Art</h3>
+</div>
+
+<div class="topnav">
+  <a href="home.html">Home</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="statement.html">Artist Statement</a>
+  <a href="contact.html">Contact</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Way</h2>
+      
+      <div class="media">
+        <img src="norman_glitch_1.jpg" width="800" height="700"/>
+
+      </div>
+      <h5>Medium: Audacity and Sublime</h5>
+      <p>I decided to use a Google image of an elongated wooden bridge and produce a distorted visual.</p>
+      
+    </div>
+
+    <div class="card">
+      <h2>The Velvet Room</h2>
+      <div class="media">
+        <img src="norman_glitch_2.jpg" width="800 height "700"/>
+
+      </div>
+      <h5>Medium: Audacity and Sublime</h5>
+      <p>This is a room that is commonly featured from the video game series "Persona". I felt that adding glitch elements would truly compliment the chaos and elegance that radiates within this particular part of the game. </p>
+    </div>
+
+    <div class="card">
+      <h2>Don't Say It</h2>
+      <div class="media">
+        <img src="norman_glitch_3.jpg" width="800 height "700"/>
+
+      </div>
+      <h5>Medium: Audacity and Sublime</h5>
+      <p>For my digital composite, I decided to use an iconic scene from one of the most influential films from the 1990s called “Pulp Fiction” and a very unique word font and style used heavily from an ongoing video game franchise “Persona” as of 2019. The inspiration for this piece mostly came from the movie because I wanted to capture an immersive experience within this scene. I believe that I was able to convey a distinctive blend between this movie and the Persona game. Audacity was a very intriguing program that I used to generate unique effects/tools like distortion, echo and phaser in order to produce this design of glitch art. Ultimately, I highly enjoyed the experience of this assignment. </p>
+    </div>
+
+
+
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Me</h2>
+      <img src="profile.jpg" width="300" height="240"/>
+      <p>Graphic Designer & Illustrator of 4 years.</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+
+</body>
+</html>
